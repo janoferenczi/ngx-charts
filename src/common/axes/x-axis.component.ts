@@ -30,6 +30,7 @@ import { XAxisTicksComponent } from './x-axis-ticks.component';
         [tickValues]="ticks"
         (dimensionsChanged)="emitTicksHeight($event)"
       />
+      Hello world!
       <svg:g ngx-charts-axis-label
         *ngIf="showLabel"
         [label]="labelText"
